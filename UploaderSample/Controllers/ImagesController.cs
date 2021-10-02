@@ -13,7 +13,7 @@ namespace UploaderSample.Controllers
 {
     [Produces(MediaTypeNames.Application.Json)]
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ImagesController : ControllerBase
     {
         private readonly IImageService imageService;
